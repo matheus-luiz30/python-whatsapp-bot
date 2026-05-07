@@ -1,5 +1,5 @@
 ## Função dos Diretórios e Arquivos
-
+l
 ### main.py
 
 - iniciar o banco de dados
