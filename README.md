@@ -48,5 +48,4 @@ O projeto utiliza Python e SQLite para registrar usuários, organizar informaç�
 - Interface web administrativa
 - Sistema de login
 - Histórico de atendimentos
-- Hospedagem em servidor Linux
 - Estrutura fullstack
