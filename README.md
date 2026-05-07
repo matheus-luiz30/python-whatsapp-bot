@@ -1,20 +1,3 @@
-## Estrutura do Projeto
-
-python-whatsapp-bot/
-│
-├── main.py
-│
-├── classes/
-│   └── class_cliente.py
-│
-├── database/
-│   ├── banco.db
-│   └── iniciar_banco.py
-│
- ── reutilizavel/
-    └── validacao_dados.py
-
-
 ## Função dos Diretórios e Arquivos
 
 ### main.py
