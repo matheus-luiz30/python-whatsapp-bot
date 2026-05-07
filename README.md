@@ -1,97 +1,52 @@
-## Função dos Diretórios e Arquivos
-l
-### main.py
+# Python WhatsApp Bot
 
-- iniciar o banco de dados
-- chamar as funções de validação
-- criar o cliente
-- executar o fluxo principal do programa
+Sistema de atendimento automatizado desenvolvido em Python com foco em automação de serviços técnicos e gerenciamento de clientes.
 
-
-### classes/
-
-Diretório responsável pelas classes do sistema.
-
-Utilizado para separar estruturas principais da aplicação.
-
-### class_cliente.py
-
-- armazenar informações do cliente
-- salvar clientes no banco de dados
-- deletar clientes
-- tratar erros relacionados ao SQLite
-
-Centraliza a lógica relacionada aos clientes.
-
-### database/
-
-Diretório responsável pelos arquivos relacionados ao banco de dados.
-
-
-### banco.db
-
-armazena:
-- nome
-- email
-- número
-- data de criação
-- status do cliente
-
-### iniciar_banco.py
-
-Arquivo responsável pela criação do banco de dados.
-
-- criar conexão SQLite
-- criar tabela `clientes`
-- definir estrutura do banco
-
-Executado no início da aplicação.
+O projeto utiliza Python e SQLite para registrar usuários, organizar informações e estruturar um fluxo automatizado de atendimento.
 
 ---
 
-### reutilizavel/
+## Tecnologias Utilizadas
 
-Diretório utilizado para funções reutilizáveis do sistema.
-
-Ainda em andamento
-
----
-
-### validacao_dados.py
-
-Responsável pelas validações de entrada do usuário.
-
-- validar nome
-- validar email
-- validar número
+- Python
+- SQLite
+- Git/GitHub
 
 ---
 
+## Objetivos do Projeto
 
-#_____________________________________________________________#
-
-## Direções Futuras
-
-A proposta do projeto é evoluir para um sistema fullstack de atendimento automatizado, utilizando Python, banco de dados, APIs e interface web.
+- Automatizar atendimentos
+- Registrar clientes
+- Organizar informações de contato
+- Validar dados automaticamente
+- Estruturar um backend modular
 
 ---
 
-## Objetivos Futuros
+## Estrutura do Projeto
+
+- `classes/`
+- `database/`
+- `reutilizavel/`
+- `main.py`
+
+---
+
+## Funcionalidades Atuais
+
+- Cadastro de clientes
+- Validação de nome, email e número
+- Criação automática do banco de dados
+- Tratamento de erros com SQLite
+
+---
+
+## Próximas Implementações
 
 - Integração com API do WhatsApp
-- Criação de painel administrativo web
+- Interface web administrativa
 - Sistema de login
 - Histórico de atendimentos
-- Organização de chamados técnicos
-- Estruturação de backend mais escalável
-
----
-
-## O que ainda falta
-
-- Interface gráfica
-- Integração real com WhatsApp
-- API funcional
-- Sistema de autenticação
-- Hospedagem online
-- Estrutura frontend
+- Hospedagem em servidor Linux
+- Estrutura fullstack
